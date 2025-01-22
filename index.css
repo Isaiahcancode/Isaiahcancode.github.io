@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(247, 208, 208);
+    padding: 10px;
+    justify-content: space-between;
+}
+.Cafe-menu{
+    color: rgb(73, 13, 18);
+    font-family: cursive;
+    background-color: white;
+    max-width: 100%;
+#Cafe-menu{
+    size: 10px;
+}
+}
+.Markers{
+    color: rgb(131, 64, 64);
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    max-width: 100%;
+}
+#links{
+    background-color: red;
+    max-width: 50%;
+}
+#intro{
+    background-color: blue;
+    color: white;
+    max-width: 50%;
+}
