@@ -22,7 +22,8 @@ body{
 }
 #links{
     background-color: #b3c096;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
 }
 #links:hover{
     color: red;
@@ -40,4 +41,9 @@ body{
     max-width: 150px;
     height: 100px;
     
+}
+#projects{
+    border-color: blue;
+    background-color: aquamarine;
+    max-width: 50%;
 }
