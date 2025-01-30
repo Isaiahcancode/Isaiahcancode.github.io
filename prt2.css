@@ -6,6 +6,7 @@ h2 { color : purple; }
 
  
 
-p { color : grey; }
+p { 
+    background: #0000FF url(“Watermark.png”) repeat-x right; }
 
  
