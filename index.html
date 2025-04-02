@@ -3,38 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet"></link>
-    <title>Isaiah's cool site</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    <main id="intro">
-        <h1>my website</h1>
-        <p>Hello World</p>
-        <p>when will this site be fully developed?</p>
-        
-    </main>
-    <section id="links">
-        <h1 class="Cafe-menu" >this is my cafe resturant menu </h1>
-        
-        <a id="Cafe-menu" href="file:///C:/Users/ITayl715/Documents/GitHub/Isaiahcancode.github.io/cafe_menu.html" alt="cafe-link">This will take you to my cafe menu</a>
-        <img id="cafe-image" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D" alt="cafe-image"/>
-        <div class="border"></div>
-        <h1 class="Markers" id="Markers">This is my Marker website</h1>
-        <a href="file:///C:/Users/ITayl715/Documents/GitHub/Isaiahcancode.github.io/markers.html">This will take you to my marker website</a>
-    </section>
-    <section id="projects">
-        <h1>PROJECTS i've worked on</h1>
-        <img id="snake-game-img"/>
-        <h3>idk how to get an image of it so here</h3>
-        <img scr="https://images.unsplash.com/premium_photo-1661897154120-5b27cd6a0bd5?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" height="100" alt="snake"></img>
-        <h3>this is a image</h3>
-    </section>
-    <section id="acheivements">
-        <h1>CERTIFICATIONS</h1>
-        <div>certifications i've gotten are:</div>
-        <a href="https://www.freecodecamp.org/certification/IsaiahT/responsive-web-design" alt="This is my html certifcation from FreeCodeCamp">(FreeCodeCamp) html & CSS</a>
 
-        
+    <!-- Navbar 🧭 -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Portfolio ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section 👋 -->
+    <section id="home" class="full-screen">
+        <div class="container">
+            <h1 class="Welcome">Welcome to My Website</h1>
+            <p class="home_h1">This website showcases my Certifications, Projects, and Games.</p>
+        </div>
     </section>
+
+    <!-- Social Media Section 📱 -->
+    <section id="social-media">
+        <h2>Connect with Me</h2>
+        <ul>
+            <li><a href="https://github.com/yourgithubusername" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.codewars.com/users/yourcodewars" target="_blank">CodeWars</a></li>
+        </ul>
+    </section>
+
+    <!-- Profile Section 🧑‍💼 -->
+    <section id="profile">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer with experience in Python, HTML, and CSS. I love building games and web applications.</p>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>My Certifications</h2>
+        <div class="certification-box">
+            <img src="cert1.jpg" alt="Python Certification">
+            <div class="cert-content">
+                <h3>Python Certification</h3>
+                <p>Issued by Certiport in 2025. Verifies expertise in Python programming.</p>
+            </div>
+        </div>
+
+        <div class="certification-box">
+            <img src="cert2.jpg" alt="HTML and CSS Certification">
+            <div class="cert-content">
+                <h3>HTML and CSS Certification</h3>
+                <p>Issued by Certiport in 2025. Verifies expertise in HTML and CSS.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section 💡 -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-box">
+                <a href="https://github.com/yourgithubusername/project1" target="_blank">Project 1 - Snake Game</a>
+            </div>
+        </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+
 </body>
 </html>
